@@ -17,7 +17,7 @@ import Cart from "./Views/Cart/Cart";
 import Guidelines from "./Views/Guidelines/Guidelines";
 
 const themes = {
-    light: '/custom-antd-light.css',
+    light: '/custom-antd.css',
     dark: '/custom-antd-dark.css',
 };
 
