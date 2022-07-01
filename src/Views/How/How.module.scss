@@ -1,0 +1,28 @@
+.how {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+
+    @media(max-width: 576px) {
+        padding: 0 1rem;
+    }
+
+    h2 {
+        font-weight: 600;
+    }
+
+    p {
+        // color: grey;
+        // text-align: justify;
+    }
+}
+
+.banner {
+    max-width: 90%;
+    border-radius: 10px;
+
+    @media(max-width: 576px) {
+        max-width: 100%;
+        margin-bottom: 1rem;
+        border-radius: 10px;
+    }
+}

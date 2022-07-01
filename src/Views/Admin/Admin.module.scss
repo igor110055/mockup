@@ -1,0 +1,30 @@
+.table {
+    img {
+        max-width: 50px;
+    }
+
+    th {
+        padding: 1rem;
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    td {
+        padding: 1rem;
+        text-align: left;
+    }
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+    content: "";
+    display: block;
+    border-radius: 100%;
+    margin-left: 0.5rem;
+}
+
+.sec {
+    margin: 0 2rem;
+    // max-width: 1280px;
+}

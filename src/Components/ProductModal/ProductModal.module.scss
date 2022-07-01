@@ -1,0 +1,51 @@
+.prod {
+}
+
+.img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.info {
+    span {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    p {
+        margin-top: 1rem;
+    }
+}
+
+.color_box {
+    width: 40px;
+    height: 40px;
+    display: block;
+    content: "";
+    border-radius: 10px;
+    margin-left: 1rem;
+}
+
+.button_box {
+    margin-top: 2rem;
+    button {
+        // background-color: #1c2e49;
+        background-color: var(--color-primary);
+        color: var(--color-blue) !important;
+        border: none;
+        // color: var(--color-blue);
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        margin-right: 1rem;
+        
+        cursor: pointer;
+
+        @media (max-width: 576px) {
+            max-width: 100%;
+            width: 100%;
+            margin-top: 1rem;
+            
+        }
+    }
+}

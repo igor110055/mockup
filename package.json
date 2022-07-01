@@ -1,0 +1,63 @@
+{
+  "name": "difusee-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@toast-ui/react-image-editor": "^3.15.2",
+    "antd": "^4.18.5",
+    "axios": "^0.25.0",
+    "exif-js": "^2.3.0",
+    "html2canvas": "^1.4.1",
+    "less": "^4.1.2",
+    "moment": "^2.29.1",
+    "query-string": "^7.1.1",
+    "re-resizable": "^6.9.2",
+    "react": "^17.0.2",
+    "react-color": "^2.19.3",
+    "react-css-theme-switcher": "^0.3.0",
+    "react-dom": "^17.0.2",
+    "react-drag-resize": "^0.1.4",
+    "react-file-base64": "^1.0.3",
+    "react-icons": "^4.3.1",
+    "react-image-pan-zoom-rotate": "^1.5.0",
+    "react-resizable-rotatable-draggable": "^0.2.0",
+    "react-resizable-rotatable-draggable-touch-v2": "^2.0.2",
+    "react-rnd": "^10.3.5",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "5.0.0",
+    "sass": "^1.49.7",
+    "styled-components": "^5.3.5",
+    "use-react-screenshot": "^3.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "npm run compile-less && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "compile-less": "npm run compile-dark-less && npm run compile-light-less",
+    "compile-dark-less": "lessc --js src/styles/antd-dark.less public/custom-antd-dark.css",
+    "compile-light-less": "lessc --js src/styles/antd-light.less public/custom-antd-light.css"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
